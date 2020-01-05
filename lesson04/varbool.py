@@ -8,3 +8,17 @@
 # 第二：数值0，包含0、0.0或虚数0
 # 第三：空序列，包含空字符串、空数组、空元组、空列表、空字典
 # 第四：自定义的对象，该对象的__bool__方法返回False，或__len__方法返回0
+
+num = True
+if num:
+    print("False")
+num = -1
+if num:
+    print("-1 is true")
+
+num = {}
+if not num:
+    print("{} is False")
+
+
+
